@@ -1,17 +1,34 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Devansh Kalia | Scalable Systems & Cloud Optimization Engineer</title>
-  <meta name="description" content="Devansh Kalia is a Senior Software Engineer with 11+ years of experience in scalable system design, distributed systems, and cloud optimization (AWS, Java, C#, Glue, Lambda).">
-  <meta property="og:title" content="Devansh Kalia | Senior Software Engineer" />
-  <meta property="og:description" content="Scalable system design, cloud-native architectures, and performance optimization using AWS, Java, and distributed microservices." />
-  <meta property="og:image" content="avatar-devansh.png" />
-  <meta property="og:url" content="https://kaliadevansh.github.io" />
-  <link rel="stylesheet" href="style.css" />
+  <title>Devansh Kalia | Senior/Staff Software Engineer – Scalable Systems & Frontend</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Senior/Staff-level software engineer with 11+ years in system design, distributed systems, AWS (Glue, Lambda, Fargate, DynamoDB), Java/C#, React/Redux, Angular, TypeScript, and performance/cost optimization.">
+  <link rel="canonical" href="https://kaliadevansh.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Devansh Kalia | Senior/Staff Software Engineer">
+  <meta property="og:description" content="System design • Distributed systems • Cloud-native • React/Redux • Angular • Performance & cost optimization">
+  <meta property="og:url" content="https://kaliadevansh.github.io/">
+  <meta property="og:image" content="https://kaliadevansh.github.io/avatar-devansh.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Devansh Kalia | Senior/Staff Software Engineer">
+  <meta name="twitter:description" content="System design • Distributed systems • Cloud-native • React/Redux • Angular • Performance & cost optimization">
+  <meta name="twitter:image" content="https://kaliadevansh.github.io/avatar-devansh.png">
+
+  <!-- Assets -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" as="style">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="avatar-devansh.png">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- JSON-LD schema for recruiters/LLMs -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -20,75 +37,127 @@
     "url": "https://kaliadevansh.github.io",
     "image": "https://kaliadevansh.github.io/avatar-devansh.png",
     "jobTitle": "Senior Software Engineer",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Amazon"
-    },
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Punjabi University"
-    },
-    "sameAs": [
-      "https://github.com/kaliadevansh"
-    ]
+    "worksFor": [
+      {"@type": "Organization", "name": "Amazon"},
+      {"@type": "Organization", "name": "Accenture"},
+      {"@type": "Organization", "name": "Infosys"}
+    ],
+    "alumniOf": {"@type": "CollegeOrUniversity", "name": "Punjabi University"},
+    "sameAs": ["https://github.com/kaliadevansh"],
+    "knowsAbout": [
+      "System design","Distributed systems","Cloud-native architectures","Microservices",
+      "High availability","Fault tolerance","Observability","Performance optimization",
+      "Cost optimization","AWS Glue","AWS Lambda","AWS Fargate","Amazon DynamoDB",
+      "Amazon S3","Amazon EC2","Amazon CloudWatch","API Gateway","Azure Functions",
+      "CI/CD","Java","C#","Python","TypeScript","JavaScript","React","Redux","Angular",
+      "Frontend performance","Accessibility","UX design","Microsoft Graph API","Office 365"
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "work",
+      "email": "mailto:kaliadevansh@gmail.com"
+    }]
   }
   </script>
 </head>
-<body class="dark-mode">
+<body data-theme="dark">
+  <!-- Skip for keyboard users -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
   <div class="container">
-    <button class="theme-toggle" onclick="toggleTheme()">🌓 Toggle Theme</button>
-    <header>
-      <img src="avatar-devansh.png" alt="Devansh Avatar" class="avatar" />
+    <button
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle light and dark theme"
+      aria-pressed="true"
+      onclick="toggleTheme()"
+    >🌞 Light mode</button>
+
+    <header class="hero card" role="banner">
+      <img src="avatar-devansh.png" alt="Portrait of Devansh Kalia, Senior/Staff Software Engineer" class="avatar" />
       <h1>Devansh Kalia</h1>
-      <h2>Senior Software Engineer | Scalable Systems & Cloud Optimization</h2>
-      <p class="subtitle">I build cost-efficient, distributed, high-availability systems that scale.</p>
+      <h2>Senior/Staff Software Engineer — Scalable Systems & Frontend</h2>
+      <p class="subtitle">I build cost‑efficient, distributed, high‑availability systems and modern web applications.</p>
+      <div class="cta">
+        <a class="button-link" href="YOUR_GOOGLE_DRIVE_RESUME_LINK" target="_blank" rel="noopener">📄 Download Resume (PDF)</a>
+        <a class="button-link ghost" href="#contact">Contact Me</a>
+      </div>
     </header>
 
-    <main>
-      <section>
-        <h3>About Me</h3>
-        <p>I’m a senior software engineer with 11+ years of experience in cloud-native system design, distributed systems, and performance optimization. I’ve built production-grade, latency-sensitive APIs and architected scalable backend platforms that power high-traffic services. My work spans AWS Glue, Lambda, EC2, S3, DynamoDB, and microservices using Java, C#, and TypeScript. I thrive on solving complex engineering challenges and mentoring engineers toward technical excellence.</p>
+    <main id="main" role="main">
+      <section class="card">
+        <h2>What I Do (Search‑Friendly Summary)</h2>
+        <p>Senior/Staff-level software engineer with 11+ years across <strong>scalable system design</strong>, <strong>distributed/cloud‑native platforms</strong>, and <strong>enterprise web front‑end development</strong>. I lead projects that reduce <strong>latency</strong>, improve <strong>reliability</strong>, and cut <strong>cloud costs</strong> using <strong>AWS (Glue, Lambda, Fargate, DynamoDB, S3, EC2, CloudWatch, API Gateway)</strong> with <strong>Java/C#</strong>, and I deliver modern front‑ends with <strong>React/Redux</strong>, <strong>TypeScript</strong>, and <strong>Angular</strong> integrated with enterprise APIs.</p>
+        <p><strong>Titles I align with:</strong> Senior Software Engineer, Staff Software Engineer, Senior Backend Engineer, Full‑stack/Platform Engineer, Systems Engineer, Cloud Engineer.</p>
+        <p><strong>Keywords:</strong> system design, distributed systems, cloud optimization, microservices, high availability, fault tolerance, observability, performance engineering, AWS Glue, Lambda, Fargate, DynamoDB, S3, EC2, CloudWatch, API Gateway, Java, C#, Python, TypeScript, React, Redux, Angular, CI/CD, frontend performance, accessibility (WCAG), UX design, Microsoft Graph API, Office 365.</p>
       </section>
 
-      <section>
-        <h3>Projects & Highlights</h3>
-        <ul>
-          <li><strong>Graviton Migration – Amazon:</strong> Led migration of Amazon Wallet to ARM-based infrastructure, saving $100K/year and improving CPU utilization by 20%.</li>
-          <li><strong>Logging Memory Optimization – Amazon:</strong> Refactored memory-heavy logs, cutting memory usage by 90%. Improved observability and reliability.</li>
-          <li><strong>Lifecycle Validation Engine:</strong> Built a fault-tolerant validation engine ensuring cross-service consistency across employee lifecycle workflows.</li>
-          <li><strong>Enterprise Teams Integrations – Accenture:</strong> Delivered messaging extensions and chatbots for global clients using Microsoft Graph APIs and Office 365 tools.</li>
-          <li><strong>ATS System Optimization – Infosys:</strong> Reduced SaaS portal load time from 3 mins to 15 sec using SQL tuning and Azure Functions for scalable ingest.</li>
+      <section class="card">
+        <h2>Projects & Impact</h2>
+        <ul class="projects">
+          <li><strong>Graviton Migration — Amazon:</strong> Led ARM migration for a critical wallet service; <strong>$100K/year savings</strong>, <strong>+20% CPU efficiency</strong>, maintained <strong>latency SLOs</strong>. (Java, AWS EC2, observability)</li>
+          <li><strong>Logging Memory Optimization — Amazon:</strong> Fixed memory leak and refactored logging; <strong>90% memory reduction</strong>, improved stability. (Java, JVM, G1GC)</li>
+          <li><strong>Lifecycle Validation Engine:</strong> Cross‑service consistency checks for employee lifecycle; <strong>–83% ETL errors</strong> after moving from SSIS to <strong>AWS Glue</strong>.</li>
+          <li><strong>React/Redux Web App — Amazon:</strong> Delivered an internal React + Redux application integrating with distributed backend services and enterprise auth; focused on <strong>frontend performance</strong> and <strong>developer experience</strong>.</li>
+          <li><strong>Enterprise Teams Integrations — Accenture:</strong> Built <strong>TypeScript</strong> messaging extensions and <strong>line‑of‑business applications</strong> using <strong>Microsoft Graph API</strong> and <strong>Office 365</strong>; contributed to <strong>UX design</strong> and accessibility.</li>
+          <li><strong>ATS Front‑end — Infosys:</strong> Developed and optimized <strong>Angular</strong> front‑end for ATS/HR portals, improving page load and responsiveness within enterprise constraints.</li>
         </ul>
-        <a class="button-link" href="#">📄 Download My Resume</a>
       </section>
 
-      <section>
-        <h3>Technical Skills</h3>
+      <section class="card">
+        <h2>Technical Skills</h2>
         <p><strong>Languages:</strong> Java, C#, Python, TypeScript, JavaScript</p>
         <p><strong>Cloud & Infra:</strong> AWS (Glue, Lambda, Fargate, API Gateway, EC2, S3, DynamoDB, CloudWatch), Azure Functions</p>
         <p><strong>Specialties:</strong> Distributed systems, microservices, system design, CI/CD, scalability, latency optimization, cost reduction</p>
-        <p><strong>Leadership:</strong> Mentorship, code reviews, documentation bar raiser, internal conference speaker</p>
+        <p><strong>Frontend:</strong> React, Redux, Angular, TypeScript, frontend performance, accessibility (WCAG), UX design, Microsoft Graph API, Office 365</p>
+        <p><strong>Leadership:</strong> Mentorship, code/design reviews, documentation bar raiser, internal conference speaker</p>
       </section>
 
-      <section>
-        <h3>Education</h3>
+      <section class="card">
+        <h2>Education</h2>
         <p><strong>B.Tech, Computer Science</strong> — Punjabi University (2010 – 2014)</p>
       </section>
 
-      <section>
-        <h3>Contact</h3>
-        <ul>
-          <li>Email: <a href="mailto:kaliadevansh@gmail.com">kaliadevansh@gmail.com</a></li>
-          <li>LinkedIn: <a href="https://linkedin.com/in/kaliadevansh" target="_blank">linkedin.com/in/kaliadevansh</a></li>
-          <li>GitHub: <a href="https://github.com/kaliadevansh" target="_blank">github.com/kaliadevansh</a></li>
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <ul class="contact">
+          <li>Email: <a href="mailto:kaliadevansh@gmail.com" rel="noopener">kaliadevansh@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/kaliadevansh" target="_blank" rel="noopener">linkedin.com/in/kaliadevansh</a></li>
+          <li>GitHub: <a href="https://github.com/kaliadevansh" target="_blank" rel="noopener">github.com/kaliadevansh</a></li>
         </ul>
       </section>
     </main>
+
+    <footer class="footer" role="contentinfo">
+      <small>© 2025 Devansh Kalia • Optimized for recruiter/AI parsing • <a href="sitemap.xml">sitemap</a></small>
+    </footer>
   </div>
 
   <script>
+    (function () {
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light' || saved === 'dark') {
+        document.body.setAttribute('data-theme', saved);
+      }
+      updateToggleLabel();
+    })();
+
     function toggleTheme() {
-      document.body.classList.toggle('dark-mode');
+      const next = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.body.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateToggleLabel();
+    }
+
+    function updateToggleLabel() {
+      const btn = document.querySelector('.theme-toggle');
+      const theme = document.body.getAttribute('data-theme');
+      const isDark = theme === 'dark';
+      if (btn) {
+        btn.textContent = isDark ? '🌞 Light mode' : '🌙 Dark mode';
+        btn.setAttribute('aria-pressed', String(isDark));
+        btn.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+      }
     }
   </script>
 </body>
