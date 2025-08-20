@@ -1,9 +1,8 @@
-
 :root {
-  --dark-bg: #121212;
-  --dark-text: #f0f0f0;
   --light-bg: #ffffff;
   --light-text: #121212;
+  --dark-bg: #121212;
+  --dark-text: #f0f0f0;
   --primary: #00bcd4;
   --font-main: 'Inter', sans-serif;
 }
@@ -12,9 +11,14 @@ body {
   font-family: var(--font-main);
   margin: 0;
   padding: 0;
+  background-color: var(--light-bg);
+  color: var(--light-text);
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.dark-mode {
   background-color: var(--dark-bg);
   color: var(--dark-text);
-  transition: background-color 0.4s, color 0.4s;
 }
 
 .container {
@@ -82,9 +86,4 @@ ul li::before {
 a {
   color: var(--primary);
   text-decoration: none;
-}
-
-.dark-mode {
-  background-color: var(--dark-bg);
-  color: var(--dark-text);
 }
